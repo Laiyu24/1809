@@ -1,0 +1,329 @@
+/* 
+* @Author: Marte
+* @Date:   2018-11-21 17:59:28
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-11-22 20:13:23
+*/
+
+
+/*top---------------------------------------------------------*/
+#top_t{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #E5E5E5;
+    background: #F4F4F4;
+}
+#top_t .topt{
+    width:966px;
+    height: 40px;
+    margin:0 auto;
+}
+.topt .s3 a{
+    font-size: 14px;
+    line-height: 40px;
+    color:#333;
+}
+.topt .s4 a{
+    font-size: 14px;
+    line-height: 40px;
+    color:#333;
+}
+.topt .s3 a:hover{
+    color:green;
+    text-decoration:underline;
+}
+.topt .s4 a:hover{
+    color:green;
+    text-decoration:underline;
+}
+.topt .s2 a{
+    width: 66px;
+    float: right;
+    font-size: 12px;
+    line-height: 40px;
+    
+    color:#333333;
+}
+.topt .s2 a:hover{
+    color:green;
+   text-decoration:underline;
+}
+#s1{
+    height:40px;
+    width: 66px;
+    float: right;
+    font-size: 12px;
+    line-height: 40px;
+    color:#333333;
+    margin-right: 17px;
+}
+#s1 i{
+    width: 10px;
+    height: 5px;
+    position:absolute;
+    top:50%;
+    right:20px;
+    background:url(../images/ss.png) no-repeat -56px -178px;
+}
+#s1 .i1{
+     background:url(../images/ss.png) no-repeat -56px -178px;
+}
+#s1 .i2{
+     background:url(../images/ss.png) no-repeat -82px -178px;
+}
+#box1{
+    position:absolute;
+    top:40px;
+    right:0 ;
+    width: 450px;
+    height: 90px;
+    display: none;
+    border-left: 1px solid #CCCCCC;
+     border-bottom: 1px solid #CCCCCC ;
+      border-right:  1px solid #CCCCCC;
+}
+#box2{
+   float:right;
+     width: 100px;
+     height:40px;
+    position:relative;
+}
+#box1 .box3{
+    width: 216px;
+    height: 70px;
+    float:left;
+    border-right: 1px solid #ccc;
+    margin-top:10px ;
+}
+#box1 .box4{
+    float:left;
+    margin-top:10px ;
+}
+#box1 .box3 h2{
+    line-height: 20px;
+    color:#0CB95F;
+    font-size: 14px;
+    padding-left: 20px;
+}
+#box1 .box4 h2{
+    line-height: 20px;
+    color:#0CB95F;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+#box1 .box3 span a{
+    line-height: 22px;
+    color:#000;
+    font-size: 14px;
+    padding-left: 5px;
+}
+#box1 .box4 span a{
+    line-height: 22px;
+    color:#000;
+    font-size: 14px;
+    padding-left: 10px;
+}
+#box1 .box4 span a:hover{
+    text-decoration:underline;
+}
+#box1 .box3 span a:hover{
+    text-decoration:underline;
+}
+#box2:hover{
+    background:#FFFFFF;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
+}
+/*logo---------------------------------------*/
+#logo{
+    width: 100%;
+    height:120px;
+}
+#logo .logo{
+    width: 996px;
+    height:120px;
+    margin:0 auto ;
+}
+
+.logo span a{
+    float:left;
+    margin-top: 26px;
+    display:block;
+    width: 225px;
+    height: 65px;
+}
+.logo span:nth-child(2){
+    float:left;
+    display:block;
+    margin-top: 25px;
+    margin-left:14px ;
+    font-size: 26px;
+    color:#666666;
+    width: 124px;
+    height: 76px;
+    line-height: 76px;
+    text-align: center;
+}
+/*register登录--------------------------------------------*/
+#register{
+    width: 100%;
+    height: 539px;
+    position:relative;
+}
+
+#register .register{
+    width: 1103px;
+    height: 0;
+    margin:0 auto ;
+
+
+}
+.register .register_l{
+    float:left;
+    position:absolute;
+    top:0;
+    left:141px;
+}
+.register .register_r {
+    width:400px;
+    height:439px;
+    background:#FFFFFF;
+    position:absolute;
+    top:50px;
+    right:178px;
+   }
+   .register .register_x{
+        width: 320px;
+        height: 404px;
+        margin: 9px 40px 26px 40px ;
+        
+   }
+    .register .register_x span{
+        width: 161px;
+        height:47px;
+        font-size: 19px;
+        line-height: 47px;
+        text-align: center;
+        padding-left:40px ;
+        padding-right:40px ;
+        color:#C2A599;  
+   }
+   .register .register_x p{
+    font-size: 16px;
+    color:#333333;
+   }
+   .register .register_x p a{
+    font-size: 16px;
+    text-decoration:underline;
+    color:#0CB95F;
+   }
+   .register .register_x .ip1{
+    width: 285px;
+    height:40px;
+    border:1px solid #CCCCCC;
+    margin-top: 20px;
+   padding-left: 35px;
+            background:url(../images/rt.png) no-repeat 0 0px;
+   }
+   .register .register_x .ip2{
+    width: 285px;
+    height:40px;
+    border:1px solid #CCCCCC;
+    margin-top: 20px;
+   padding-left: 35px;
+            background:url(../images/mm.png) no-repeat 0 0px;
+   }
+   #box5{
+     width: 320px;
+     height:57px;
+   }
+   #box5 .box5{
+    width: 249px;
+    height: 57px;
+    color:#333333;
+    line-height: 57px;
+    font-size: 14px;
+    float:left;
+   }
+   #box5 .box5 input{
+        width: 14px;
+        height: 14px;
+   }
+   #box5  a{
+    float:right;
+    display:inline-block;
+    color:#333333;
+    font-size: 14px;
+    padding-top: 21px;
+   }
+   #box5  a:hover{
+    color:green;
+    text-decoration:underline;
+   }
+   #ip3{
+    width: 320px;
+    height: 48px;
+    background:#0CB95F;
+    color: #FFFAD7;
+    font-size: 18px;
+    text-align: center;
+   }
+   .register .register_x .box6{
+    width: 320px;
+    height: 50px;
+    font-size: 16px;
+    color:#333333;
+    line-height: 50px;
+    margin-top: 10px;
+   }
+   .register .register_x .box7 img{
+        margin-right:20px ;
+   }
+   /*//bottom------------------------------------//*/
+   #bottom {
+    height: 125px;
+    width: 100%;
+
+   }
+   #bottom .bottom {
+        width: 1028px;
+        height: 125px;
+        margin: 0 auto;
+   }
+   #bottom .bottom .p1 a{
+        display:inline-block;
+        font-size: 12px;
+        width: 69px;
+        height: 46px;
+        line-height: 46px;
+        text-align: center;
+        color:#999;
+        background: url(../images/shu.png) no-repeat  right 17px;
+   }
+   #bottom .bottom .p1 a:hover{
+    text-decoration:underline;
+   }
+   #bottom .bottom .p2 span a{
+    font-size: 12px;
+    color:#999;
+    margin-right: 25px;
+   }
+   #bottom .bottom .p2 span {
+    font-size: 12px;
+    color:#999;
+   }
+   #bottom .bottom .p2 a:hover{
+    text-decoration:underline;
+   }
+   #bottom .bottom .p3{
+    margin-left: 319px;
+    font-size: 12px;
+    color:#999;  
+   }
+   #bottom .bottom .p4{
+    margin-left: 363px;
+    font-size: 12px;
+    color:#999;
+   }
